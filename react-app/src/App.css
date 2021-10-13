@@ -1,0 +1,84 @@
+body {
+ background-image: url("galaxy.jpg");
+ background-repeat: no-repeat;
+ background-size: 1600px 900px;
+ height: 100%;
+ background-attachment: fixed;
+}
+
+.mainContainer {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin-top: 64px;
+}
+
+.dataContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  max-width: 600px;
+}
+
+.header {
+  text-align: center;
+  font-size: 70px;
+  font-weight: 800;
+  color: rgb(238, 226, 59);
+}
+
+.bio {
+  text-align: center;
+  color: rgb(32, 247, 218);
+  margin-top: 60px;
+  font-size: 22px;
+}
+
+.cookiesCount {
+  text-align: center;
+  color: rgb(247, 216, 37);
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-size: 20px;
+  font-weight: 800;
+}
+
+.givecookiesButton {
+  cursor: grabbing;
+  background-color: rgb(222, 243, 28);
+  margin-top: 10px;
+  padding: 20px 2px;
+  border: 8;
+  border-radius: 300px;
+  font-size: 30px;
+  font-weight: 600;
+  box-shadow: 0 6px #999;
+}
+
+.givecookiesButton:hover {
+  background-color: rgb(126, 230, 66); /* Green */
+  color: rgb(0, 0, 0);
+}
+
+.givecookiesButton:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+.connectButton {
+  background-color: rgb(228, 79, 10);
+  cursor: grabbing;
+  margin-top: 60px;
+  padding: 10px 2px;
+  text-align: center;
+  display: inline-block;
+  border: 10;
+  border-radius: 100px;
+  font-size: 40px;
+  font-weight: 600;
+}
+
+.connectButton:hover {
+  background-color: rgb(32, 201, 136);
+}
