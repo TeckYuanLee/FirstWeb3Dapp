@@ -2,6 +2,9 @@
 
 [Link to my Web3 Dapp](https://waveportal-baseline-student.teckyuanlee.repl.co/)
 
+
+Welcome to my first Web3 Dapp built with BuildSpace, where it allows user to connect their Metamask wallet to send me a Crypto cookie and a personalized message, with a chance to win 0.001 rETH
+
 <img width="1352" alt="Screenshot 2021-11-09 at 14 17 30" src="https://user-images.githubusercontent.com/8788481/140872410-7a9afb62-4224-4fda-9754-472fe62b0599.png">
 
 
